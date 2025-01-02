@@ -12,6 +12,8 @@ import { EventEmitterComponent } from './event-emitter/event-emitter.component';
 import {StoreModule} from '@ngrx/store';
 import {counterReducer} from './store/counter.reducer';
 import { MyCounterComponent } from './store/my-counter/my-counter.component';
+import { DecoradoresComponent } from './decoradores/decoradores.component';
+import { EjemploDirective } from './decoradores/ejemplo.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MyCounterComponent } from './store/my-counter/my-counter.component';
     ObservableComponent,
     PromesaComponent,
     EventEmitterComponent,
-    MyCounterComponent
+    MyCounterComponent,
+    DecoradoresComponent,
+    EjemploDirective
   ],
   imports: [
     BrowserModule,
